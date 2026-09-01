@@ -3,8 +3,9 @@
 int main()
 {
 	int a,b;
-	a=5;
-	b=6;
+	printf("Enter Number 1:");
+	printf("Enter Number 2:");
+	scanf("%d %d", &a,&b);
 	a+=b;
 	printf("a1:%d",a);
 	a*=b;
